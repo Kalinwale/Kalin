@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #BEBFBD;
+    color: #fff;
+    font-weight: bolder;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 10px;
+    height: 80vh;
+    border-right: 1px solid red;
+    width: 150px;
+    /* background-color: #BEBFBD; */
+}
+aside a {
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    color: #DC1D1F;
+}
+aside a:hover{
+    opacity: 70%;
+    background-color: #BEBFBD;
+}
+
+.nav-div {
+    display: flex;
+}
+.nav-div p {
+   margin-right: 40px;
+}
+.nav-logo {
+    width: 100px;
+}

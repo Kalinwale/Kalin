@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #BEBFBD;
+    color: #fff;
+    font-weight: bolder;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 10px;
+    height: 80vh;
+    border-right: 1px solid red;
+    width: 150px;
+    /* background-color: #BEBFBD; */
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 30px);
+    gap: 100px;
+    position: relative;
+    margin-top: 10%;
+    right: 25%;
+    
+}
+.boxes {
+    border: 1px solid #DC1D1F;
+    padding: 5px;
+    border-radius: 5px;
+}
+aside a {
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    color: #DC1D1F;
+    border: 1px solid #DC1D1F;
+    margin: 5px;
+}
+aside a:hover{
+    opacity: 70%;
+    background-color: #BEBFBD;
+}
+
+.nav-div {
+    display: flex;
+}
+.nav-div p {
+   margin-right: 40px;
+}
+.nav-logo {
+    width: 100px;
+}
